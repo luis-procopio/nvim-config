@@ -1,0 +1,6 @@
+vim.cmd("let mapleader = ' '")
+
+vim.keymap.set("n", "<C-n>", ":Neotree filesystem reveal right toggle<CR>")
+vim.keymap.set("n", "<leader>e", ":Neotree focus<CR>")
+vim.keymap.set("n", "<leader>ff", ":Telescope find_files<CR>")
+vim.keymap.set("n", "<leader>th", ":Telescope colorscheme<CR>")
