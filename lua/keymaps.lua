@@ -7,3 +7,5 @@ vim.keymap.set("n", "<leader>th", ":Telescope colorscheme<CR>")
 vim.keymap.set("n", "<leader>ft", vim.lsp.buf.format, {})
 vim.keymap.set("n", "<tab>", ":BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<S-tab>", ":BufferLineCyclePrev<CR>")
+vim.keymap.set("n", "<leader>x", ":BufferClose<CR>")
+
