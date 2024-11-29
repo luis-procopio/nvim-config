@@ -7,7 +7,7 @@ return {
       open_mapping = [[<C-j>]],
       start_in_insert = true,
       persist_size = true,
-      direction = "horizontal",
+      direction = "float",
     })
   end,
 }
